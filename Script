@@ -17,7 +17,7 @@ local title = Instance.new("TextLabel", frame)
 title.Size = UDim2.new(1, 0, 0, 40)
 title.Position = UDim2.new(0, 0, 0, 0)
 title.BackgroundTransparency = 1
-title.Text = "Desire Hub"
+title.Text = "your moder Hub"
 title.Font = Enum.Font.GothamBlack
 title.TextSize = 26
 title.TextColor3 = Color3.fromRGB(0, 170, 255)
@@ -71,7 +71,7 @@ Instance.new("UICorner", closeBtn).CornerRadius = UDim.new(0, 6)
 local function notify(msg)
 	pcall(function()
 		game.StarterGui:SetCore("SendNotification", {
-			Title = "Desire Hub",
+			Title = "lakaka",
 			Text = msg,
 			Duration = 3
 		})
@@ -80,8 +80,8 @@ end
 
 -- Get Key
 getKeyBtn.MouseButton1Click:Connect(function()
-	setclipboard("https://ads.luarmor.net/get_key?for=Desire_Hub-AQXeIDsbXKIn")
-	notify("Copied Key Link!")
+	setclipboard("ur mom lol")
+	notify("fuck you")
 end)
 
 -- Inject Key
@@ -92,8 +92,8 @@ injectBtn.MouseButton1Click:Connect(function()
 	end
 
 	local success, err = pcall(function()
-		getgenv().script_key = key
-		loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/8698e0da16b06f8d494f6fb5cff5385c.lua"))()
+		getgenv().script_key = yy
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/yapperyapper/Test/refs/heads/main/README.md"))()
 	end)
 
 	if success then
